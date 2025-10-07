@@ -9,16 +9,13 @@
  */
 {
   "sections": {
-    "collections_tQ47kg": {
-      "type": "collections",
-      "name": "t:general.collections_grid",
-      "settings": {
-        "grid_item_width": "collections--full",
-        "grid_gap": 10
-      }
+    "test_QtxmfW": {
+      "type": "test",
+      "name": "Test Section",
+      "settings": {}
     }
   },
   "order": [
-    "collections_tQ47kg"
+    "test_QtxmfW"
   ]
 }

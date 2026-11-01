@@ -10,7 +10,7 @@
     {% # Social, title, etc. %}
     {% render 'meta-tags' %}
 
-    {{ content_for_header }}
+    {%- render 'header-scripts.zipifypages', renderctx: 'thm', apprxhbl: zp_apprxhbl -%}{{ content_for_header }}
   </head>
 
   <body>
@@ -19,5 +19,5 @@
     {{ content_for_layout }}
 
     {% sections 'footer-group' %}
-  </body>
+  {%- render 'page-footer.zipifypages', renderctx: 'thm', ocuapp: oneclickupsellapp -%}</body>
 </html>
